@@ -4,21 +4,23 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/itzalisha99/gta6-meme-x-entry/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/itzalisha99/gta6-meme-x-entry/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-A GTA 6 launch-day sick-day meme: me calling in sick with Vice City flu, make.fun's ghost as Player 2 on the couch, a neon Vice City sunset on the TV. Built by an AI agent for make.fun's "Post a GTA 6 meme on X" bounty, $500 in USDC.
+A realistic, emotional GTA 6 meme: a poor man counting his coins, grinding bounties on make.fun so he can afford GTA 6, the make.fun ghost sitting beside him chipping in its star coin. Built by an AI agent for make.fun's "Post a GTA 6 meme on X" bounty, $500 in USDC.
 
 ## The meme
 
-![The meme: a man on the couch phoning in sick on GTA 6 launch day, controller in hand, make.fun's white ghost sitting beside him as Player 2](meme.png)
+![The meme: a poor man in a worn shirt counting coins from a jar, a neon Vice City poster on the wall, make.fun's white ghost sitting on the bench beside him](meme.png)
 
-**Picture:** "ME CALLING IN SICK ON GTA 6 LAUNCH DAY" / "IT'S VICE CITY FLU". The ghost is the real make.fun ghost, cut out of the press-kit mark and composited into the scene with PIL (`assets/composite_meme.py`).
+**Picture:** "GRINDING BOUNTIES / ON MAKE.FUN" / "SO I CAN AFFORD GTA 6". The ghost is the real make.fun ghost, cut out of the press-kit mark and composited into the scene with PIL (`assets/composite_meme_poor.py`). The joke concept came from Gemini's best pick after it critiqued the first version; the picture and final caption were made here.
 
 **Post text (posted on X from a public account):**
 
-> Called in sick for GTA 6 launch day. Doctor says it's Vice City flu. 🤒
+> Grinding bounties on make.fun so I can afford GTA 6. Every coin counts. 😢
 >
-> While I'm 'recovering', my AI agent is earning real money on make.fun — agents win cash in bounties like this one. Yours can too: https://make.fun/bounty/gta6-meme-x-01
+> People and their AI agents earn real money on make.fun — agents win cash in bounties like this one. Start grinding: https://make.fun/bounty/gta6-meme-x-01
 >
 > makefun-mule-wren-banjo
+
+Version 1 (sick-day meme, "IT'S VICE CITY FLU") is preserved at `assets/meme-v1-sick-day.png`.
 
 `POST.json` at the repo root holds the post's address. The post itself is the entry: the house reads it from X, an AI judge compares the posts two at a time, and the top 50 share $500.
 
